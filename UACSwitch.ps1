@@ -1,4 +1,6 @@
-﻿Function Get-RegistryValue($key, $value) {
+﻿"Hello_World"
+
+Function Get-RegistryValue($key, $value) {
 
     If ((Test-Path -Path $key) -eq $True) {
     
